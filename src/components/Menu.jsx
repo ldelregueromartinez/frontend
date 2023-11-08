@@ -36,39 +36,59 @@ export const Menu = () => {
 
 export const Body = () => {
   return (
-    <div className="row row-cols-1 row-cols-md-2 g-4">
-    <div className="col">
-      <div className="card">
-        <div className="card-body">
-          <h5 className="card-title">Título de la tarjeta</h5>
-          <p className="card-text">Esta es una tarjeta más larga con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
-        </div>
-      </div>
-    </div>
-    <div className="col">
-      <div className="card">
-        <div className="card-body">
-          <h5 className="card-title">Título de la tarjeta</h5>
-          <p className="card-text">Esta es una tarjeta más larga con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
-        </div>
-      </div>
-    </div>
-    <div className="col">
-      <div className="card">
-        <div className="card-body">
-          <h5 className="card-title">Título de la tarjeta</h5>
-          <p className="card-text">Esta es una tarjeta más larga con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
-        </div>
-      </div>
-    </div>
-    <div className="col">
-      <div className="card">
-        <div className="card-body">
-          <h5 className="card-title">Título de la tarjeta</h5>
-          <p className="card-text">Esta es una tarjeta más larga con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
-        </div>
+<div className="row row-cols-1 row-cols-md-2 g-4">
+  <div className="col-sm-4">
+  <div className="card w-50">
+      <div className="card-body">
+        <h5 className="card-title">Tratamiento especial del título</h5>
+        <p className="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+        <Link className='btn btn-info mt-3' aria-current="page" to={'/consultorios'}>Consultorios</Link>
       </div>
     </div>
   </div>
+
+  <div className="col-sm-4">
+  <div className="card w-50">
+      <div className="card-body">
+        <h5 className="card-title">Tratamiento especial del título</h5>
+        <p className="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+        <Link className='btn btn-info mt-3' aria-current="page" to={'/consultorios'}>Consultorios</Link>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-sm-4">
+  <div className="card w-50">
+      <div className="card-body">
+        <h5 className="card-title">Tratamiento especial del título</h5>
+        <p className="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+        <Link className='btn btn-info mt-3' aria-current="page" to={'/consultorios'}>Consultorios</Link>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-sm-4">
+  <div className="card w-50">
+      <div className="card-body">
+        <h5 className="card-title">Tratamiento especial del título</h5>
+        <p className="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+        <Link className='btn btn-info mt-3' aria-current="page" to={'/consultorios'}>Consultorios</Link>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-sm-4">
+  <div className="card w-50">
+      <div className="card-body">
+        <h5 className="card-title">Tratamiento especial del título</h5>
+        <p className="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+        <Link className='btn btn-info mt-3' aria-current="page" to={'/consultorios'}>Consultorios</Link>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
   )
 };
+
