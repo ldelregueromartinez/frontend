@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Especialistas } from "./components/Especialistas";
 import { Consultorios } from "./components/Consultorios";
 import { Menu } from "./components/Menu";
+import { Body } from "./components/Menu";
 
 
 
@@ -15,7 +16,7 @@ function App() {
     <Menu></Menu>
 
     <div className="container">
-  
+    <Body></Body>
       <div >
         <h1 className="h1 text-center my-4">Rutas en React</h1>
       </div>
