@@ -3,8 +3,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Especialistas } from "./components/Especialistas";
 import { Consultorios } from "./components/Consultorios";
+import { Pacientes } from "./components/Pacientes";
 import { Menu } from "./components/Menu";
-import { Body } from "./components/Menu";
+import 'bootstrap/dist/css/bootstrap.min.css';
+//import { Body } from "./components/Menu";
 
 
 
@@ -16,7 +18,7 @@ function App() {
     <Menu></Menu>
 
     <div className="container">
-    <Body></Body>
+   
       <div >
         <h1 className="h1 text-center my-4">Rutas en React</h1>
       </div>
@@ -25,6 +27,8 @@ function App() {
       <Route path="/consultorios" Component={Consultorios}></Route>
 
       <Route path="/especialistas" Component={Especialistas}></Route>
+
+      <Route path="/pacientes" Component={Pacientes}></Route>
 
 
 
