@@ -3,7 +3,7 @@ import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
 
-const url = 'https://ldelregueromartinez.github.io/historiasclinicas/';
+const url = 'https://create-react-app-beta-snowy.vercel.app/historiasclinicas/';
 
 export class HistoriasClinicas extends Component {
 
