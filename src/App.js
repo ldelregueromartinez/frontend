@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Especialistas } from "./components/Especialistas";
 import { Consultorios } from "./components/Consultorios";
 import { Pacientes } from "./components/Pacientes";
+import { HistoriasClinicas } from "./components/HistoriasClinicas";
+import { Asientos } from "./components/Asientos";
 import { Menu } from "./components/Menu";
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Body } from "./components/Menu";
@@ -30,7 +32,10 @@ function App() {
 
       <Route path="/pacientes" Component={Pacientes}></Route>
 
+      
+      <Route path="/historiasclinicas" Component={HistoriasClinicas}></Route>
 
+      <Route path="/asientos" Component= {Asientos}></Route>
 
       </Routes>
       </div>
