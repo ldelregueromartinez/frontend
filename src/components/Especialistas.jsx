@@ -3,7 +3,7 @@ import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
 
-const url = 'https://ldelregueromartinez.github.io/especialistas/';
+const url = 'https://create-react-app-beta-snowy.vercel.app/especialistas/';
 
 export class Especialistas extends Component {
 
