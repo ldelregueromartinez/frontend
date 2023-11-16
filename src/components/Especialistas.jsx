@@ -3,7 +3,7 @@ import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
 
-const url = 'http://localhost:3300/especialistas/';
+const url = 'https://ldelregueromartinez.github.io/especialistas/';
 
 export class Especialistas extends Component {
 

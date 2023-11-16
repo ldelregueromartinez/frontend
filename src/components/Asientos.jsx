@@ -3,7 +3,7 @@ import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
 
-const url = 'http://localhost:3300/asientos/';
+const url = 'https://ldelregueromartinez.github.io/asientos/';
 
 export class Asientos extends Component {
 
